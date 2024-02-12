@@ -1,0 +1,23 @@
+#quarkus:
+#  datasource:
+#    db-kind : mysql
+#    username : root
+#    password : root
+#    jdbc:
+#      url : jdbc:mysql://localhost:3306/quarkus_learning
+#  hibernate-orm:
+#    log:
+#      sql : true
+#    database:
+#      generation:none
+#  http:
+#    port: 9006
+#
+#  interest_rate: 50
+#  CEO: "Anand Kumar"
+#  branch_list : Jaipur,Jodhpur,Bikaner,Nagaur
+#
+#  jaipur_interest_rate : 40
+#  jodhpur_interest_rate : 30
+#  bikaner_interest_rate : 10
+#  nagaur_interest_rate : 40
